@@ -9,7 +9,7 @@ MyRosbag2::MyRosbag2(const std::string &node_name, const rclcpp::NodeOptions &op
     // rosbag2のための設定
     rosbag2_transport::StorageOptions soptions;
     soptions.storage_id = "sqlite3";
-    soptions.uri = "/home/kozawa-takayuki/ros2/rosbag2";
+    soptions.uri = "/home/user/ros2/rosbag2";
     rosbag2_transport::RecordOptions roptions;
     roptions.rmw_serialization_format = "cdr";
     roptions.all = true;
